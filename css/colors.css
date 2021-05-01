@@ -1,0 +1,27 @@
+/* Colors */
+.text-primary {
+	color: #038cff;
+}
+
+.text-enfasis {
+	color: #f7706f;
+}
+
+.bg-enfasis {
+	background-color: #f7706f;
+}
+
+.border-enfasis {
+	border: #f7706f;
+}
+
+.btn-enfasis {
+	background-color: #f7706f;
+	color: #fff;
+}
+
+.btn-enfasis:hover,
+.btn-enfasis:active {
+	background-color: #ff5340;
+	color: #fff;
+}

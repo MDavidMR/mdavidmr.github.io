@@ -1,0 +1,60 @@
+
+body {
+    font-family: sans-serif;
+    background-color: black;
+    background: black;
+    text-align: center;
+  }
+  .div p {
+    color: #FFFFFF;
+    }
+  .IncodeTutorialVideoFront {
+    border: 1px solid red;
+    /*transform: rotate(90deg);*/
+  }
+  
+  .IncodeTutorialButtonContainerFront {
+    margin-bottom: 300px;
+  }
+  
+  .IncodeTutorialButton {
+    width: 100%;
+  }
+  
+  .IncodeTutorialButtonContainer {
+    width: 100%;
+  }
+  
+  /* Tutorial Front */
+  /* Header Container*/
+  .IncodeTutorialHeaderContainerFront {
+    color: palegoldenrod;
+    background-color: red;
+  }
+  /* Header */
+  .IncodeTutorialHeaderFront {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  /* Header Title (h1) */
+  .IncodeTutorialHeaderTitleFront {
+  }
+  /* Header Subtitle  */
+  .IncodeTutorialHeaderSubtitleFront {
+    color: white;
+  }
+  /* Video */
+  .IncodeTutorialVideoFront {
+  }
+  /* Button container */
+  .IncodeTutorialButtonContainerFront {
+  }
+  /* Continue Button */
+  .IncodeTutorialButtonFront {
+  }
+  .center-block {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  

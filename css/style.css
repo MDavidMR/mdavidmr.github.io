@@ -1,0 +1,33 @@
+body {
+	font-family: "Lato", "Segoe UI", Tahoma, Geneva, Verdana, sans-serif !important;
+	font-size: 0.9rem;
+}
+
+/* Components */
+.card.step {
+	display: none;
+}
+.card.step.shown {
+	display: flex;
+}
+.card .card-body {
+	max-height: 400px;
+	overflow-y: hidden;
+}
+.card .card-body .content {
+	max-height: 350px;
+	overflow-y: auto;
+}
+
+::-webkit-scrollbar {
+	width: 5px;
+}
+
+::-webkit-scrollbar-track {
+	background: rgb(238, 255, 0, 0);
+}
+
+::-webkit-scrollbar-thumb {
+	background-color: rgb(230, 230, 230);
+	border: none;
+}
