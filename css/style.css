@@ -15,8 +15,17 @@ body {
 	overflow-y: hidden;
 }
 .card .card-body .content {
-	max-height: 350px;
+	height: 320px;
+	
 	overflow-y: auto;
+}
+.card .card-body .map-container {
+	max-height: 200px;
+	overflow: hidden;
+}
+
+.card .card-body .current-location {
+	text-align: left;
 }
 
 ::-webkit-scrollbar {
