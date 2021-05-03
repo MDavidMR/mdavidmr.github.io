@@ -18,17 +18,23 @@ let session;
 let onBoarding;
 
 $(document).ready(function () {
-	appObj.step = 1;
-	$("button.btn-step").click(btnStep_Click);
-	$("#btnGetLocation").click(btnGetLocation_Click);
-	goToStep(appObj.step);
-	getTerms();
+	app().then(() => {
+		appObj.step = 1;
+		$("button.btn-step").click(btnStep_Click);
+		$("#btnGetLocation").click(btnGetLocation_Click);
+		goToStep(appObj.step);
+		getTerms();
+	});
 });
 
 async function app() {
 	onBoarding = createOnBoarding();
 	await onBoarding.warmup();
-	session = await createSession();
+	this.session = await createSession();
+}
+
+function createSession() {
+	return onBoarding.createSession("MX");
 }
 
 function btnGetLocation_Click() {
@@ -53,7 +59,7 @@ function getCurrentPosition(position) {
 }
 
 function showLocation(location) {
-	$('.current-location').html(location)
+	$(".current-location").html(location);
 }
 
 function btnStep_Click(e) {

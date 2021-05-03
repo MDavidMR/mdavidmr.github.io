@@ -20,7 +20,7 @@ body {
 	overflow-y: auto;
 }
 .card .card-body .map-container {
-	max-height: 200px;
+	max-height: 180px;
 	overflow: hidden;
 }
 
